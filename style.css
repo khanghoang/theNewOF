@@ -1,0 +1,735 @@
+/*===================================================================================
+Standard
+=====================================================================================*/
+.fr {
+  float: right; }
+
+.fl {
+  float: left; }
+
+#header-content .color-purple:hover {
+  color: #805e9c;
+  border-bottom: 5px solid #805e9c; }
+
+.purple {
+  color: #805e9c; }
+
+#header-content .color-red:hover {
+  color: #c72d29;
+  border-bottom: 5px solid #c72d29; }
+
+.red {
+  color: #c72d29; }
+
+#header-content .color-green:hover {
+  color: #88a73c;
+  border-bottom: 5px solid #88a73c; }
+
+.green {
+  color: #88a73c; }
+
+#header-content .color-blue:hover {
+  color: #55b6ce;
+  border-bottom: 5px solid #55b6ce; }
+
+.blue {
+  color: #55b6ce; }
+
+#header-content .color-gray:hover {
+  color: #616161;
+  border-bottom: 5px solid #616161; }
+
+.div980px {
+  margin: 0 auto;
+  width: 980px; }
+
+p {
+  margin: 0;
+  padding: 0; }
+
+.full-width {
+  width: 100%; }
+
+/*===================================================================================
+Body
+=====================================================================================*/
+body {
+  color: #515151;
+  height: 1500px;
+  background-color: #e8e8e8; }
+
+a {
+  color: #515151; }
+
+#wrapper {
+  /*margin-top: 115px;*/ }
+
+/*===================================================================================
+Header
+=====================================================================================*/
+#header {
+  background: #1a1e21;
+  position: fixed;
+  width: 100%;
+  height: 115px;
+  z-index: 9999; }
+
+#header-content a {
+  color: #ccc; }
+
+#header-content {
+  margin: 0 auto;
+  padding: 0;
+  height: inherit; }
+
+.life-labs-logo {
+  margin: 25px 0 0 20px;
+  float: left; }
+
+#navigation #menu-top {
+  margin: 60px 0 0 10px;
+  padding: 0;
+  list-style: none; }
+
+#navigation #menu-top li {
+  float: left;
+  margin: 0 20px 0 20px;
+  height: 50px; }
+
+#navigation #menu-top li a {
+  font: 400 16px 'Open Sans', sans-serif;
+  text-decoration: none;
+  height: inherit;
+  display: block; }
+
+/*===================================================================================
+Gadget
+=====================================================================================*/
+#gadget {
+  position: fixed;
+  top: 240px;
+  right: 0;
+  z-index: 9999; }
+
+#gadget-content .social-item {
+  padding: 5px 0 5px 0;
+  width: 50px; }
+
+#gadget-content .social-item a {
+  width: 40px;
+  height: 40px;
+  display: block; }
+
+#facebook-icon {
+  background: url(img/FB-icon.png) no-repeat; }
+
+#facebook-icon:hover {
+  background: url(img/FB-icon-hover.png) no-repeat; }
+
+#googleplus-icon {
+  background: url(img/gplus-icon.png) no-repeat; }
+
+#googleplus-icon:hover {
+  background: url(img/gplus-icon-hover.png) no-repeat; }
+
+#linkedin-icon {
+  background: url(img/LinkedIn-Icon.png) no-repeat; }
+
+#linkedin-icon:hover {
+  background: url(img/LinkedIn-Icon-hover.png) no-repeat; }
+
+#twitter-icon {
+  background: url(img/Twiter-Icon.png) no-repeat; }
+
+#twitter-icon:hover {
+  background: url(img/Twiter-Icon-hover.png) no-repeat; }
+
+/*===================================================================================
+Main content
+=====================================================================================*/
+#main-content {
+  padding: 115px 0 0 0; }
+
+#slogan {
+  background-color: #333;
+  height: 70px; }
+
+#slogan-content {
+  height: auto;
+  padding: 20px 0 0 90px;
+  font: 500 17px 'Open Sans', sans-serif; }
+
+.logo-singtel {
+  /*padding: 20px 0 20px 0;*/
+  display: inline; }
+
+#slogan-content p {
+  color: #666666;
+  padding: 15px 50px 20px 10px;
+  line-height: 16px;
+  display: inline-block;
+  margin: 0;
+  vertical-align: top; }
+
+.lifelab-block {
+  position: relative; }
+
+.lifelab-block-banner {
+  background: url(img/block-banner-bg.jpg), url(img/guy1.png) 100px -100px no-repeat;
+  height: 410px;
+  z-index: 1;
+  position: relative;
+  overflow: hidden; }
+  .lifelab-block-banner img {
+    position: absolute;
+    bottom: 0; }
+
+#guy1 {
+  width: 100%;
+  height: 100%;
+  background: url(img/guy1.png) left -100px no-repeat; }
+
+#guy2 {
+  width: 100%;
+  height: 100%;
+  background: url(img/guy2.png) right -100px no-repeat; }
+
+#guy3 {
+  width: 100%;
+  height: 100%;
+  background: url(img/guy3.png) left -100px no-repeat; }
+
+#guy4 {
+  width: 100%;
+  height: 100%;
+  background: url(img/guy4.png) right -100px no-repeat; }
+
+.lifelab-block-banner-quote {
+  z-index: 5;
+  display: table;
+  width: 600px;
+  height: 100%;
+  margin: 0 auto; }
+
+.lifelab-block-banner-quote p {
+  display: table-cell;
+  vertical-align: middle;
+  color: #f1f1f1;
+  font: 600 45px 'Open Sans', sans-serif !important;
+  text-align: center;
+  text-shadow: #333 2px 3px 0.1em; }
+
+.lifelab-block-content-wrapper {
+  margin: -5px 0 -5px 0;
+  z-index: 5;
+  text-align: center;
+  position: relative; }
+
+.lifelab-block-title {
+  font: 600 45px 'Open Sans', sans-serif;
+  position: relative;
+  width: 100%;
+  padding: 30px 0 30px 0;
+  text-align: center; }
+
+.lifelab-block-title-content {
+  display: inline-block;
+  padding: 0px 20px 0 20px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  background-color: #e8e8e8; }
+
+.lifelab-block-title-line {
+  width: 100%;
+  height: 1px;
+  position: relative;
+  bottom: 30px;
+  z-index: 1; }
+
+.lifelab-block-content p {
+  padding: 20px 0 0 0;
+  color: #333;
+  font: 100 18px 'Open Sans', sans-serif;
+  line-height: 24px;
+  text-align: center; }
+  .lifelab-block-content p > img {
+    padding: 0 0 30px 0; }
+
+.block-jag {
+  height: 6px;
+  width: 100%;
+  display: block;
+  position: relative;
+  z-index: 5; }
+
+.block-black .jag-top {
+  background: url("img/grey-jag-top.png") top repeat-x; }
+.block-black .jag-bot {
+  background: url("img/grey-jag-bot.png") bottom repeat-x; }
+.block-black .lifelab-block-content-sub {
+  background-color: #1a1e21; }
+  .block-black .lifelab-block-content-sub .lifelab-block-content-paragrahps-wrapper {
+    border-bottom: 1px solid #666666; }
+.block-black .lifelab-block-title-content {
+  background-color: #1a1e21; }
+.block-black #partner-slider .slider-item {
+  border-left: 1px solid #333333; }
+  .block-black #partner-slider .slider-item:first-child {
+    border-left: none; }
+  .block-black #partner-slider .slider-item:hover {
+    background-color: #323639; }
+.block-black .lifelab-block-title-line {
+  border-top: 1px solid #666666; }
+.block-black p {
+  color: #999999; }
+
+.block-white .jag-top {
+  background: url("img/mgrey-jag-top.png") top repeat-x; }
+.block-white .jag-bot {
+  background: url("img/mgrey-jag-bot.png") bottom repeat-x; }
+.block-white .lifelab-block-content-sub {
+  background-color: #e8e8e8; }
+  .block-white .lifelab-block-content-sub .lifelab-block-content-paragrahps-wrapper {
+    border-bottom: 1px solid #cccccc; }
+.block-white .lifelab-block-title-content {
+  background-color: #e8e8e8; }
+.block-white #partner-slider .slider-item {
+  border-left: 1px solid #cccccc; }
+  .block-white #partner-slider .slider-item:first-child {
+    border-left: none; }
+  .block-white #partner-slider .slider-item:hover {
+    background-color: white; }
+.block-white .lifelab-block-title-line {
+  border-top: 1px solid #cccccc; }
+.block-white p {
+  color: #333333; }
+
+.purple .lifelab-block-title-content {
+  color: #805e9c; }
+
+.red .lifelab-block-title-content {
+  color: #c72d29; }
+
+.green .lifelab-block-title-content {
+  color: #88a73c; }
+
+.gray .lifelab-block-title-content {
+  color: #616161; }
+
+.blue .lifelab-block-title-content {
+  color: #55b6ce; }
+
+.button {
+  margin: 30px 0 40px 0;
+  display: inline-block;
+  padding: 15px 20px 15px 20px;
+  background: #333;
+  color: #fff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font: 300 20px 'Open Sans', sans-serif; }
+
+/*===================================================================================
+Slider
+=====================================================================================*/
+#partner-slider {
+  width: 100%;
+  height: 720px;
+  position: relative; }
+  #partner-slider .slider-nav {
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    top: 120px;
+    cursor: hand; }
+  #partner-slider .left-arrow {
+    left: -65px; }
+  #partner-slider .right-arrow {
+    right: -65px; }
+  #partner-slider #partner-slider-content {
+    height: 100%;
+    overflow: hidden; }
+    #partner-slider #partner-slider-content .slider-item {
+      text-align: center;
+      width: 389px;
+      height: 600px;
+      padding: 30px 50px 90px 50px;
+      float: left;
+      font: 300 20px 'Open Sans', sans-serif; }
+      #partner-slider #partner-slider-content .slider-item p.partner-quote {
+        font-style: italic;
+        color: #999; }
+    #partner-slider #partner-slider-content .partner-top {
+      height: 280px; }
+    #partner-slider #partner-slider-content .partner-quote,
+    #partner-slider #partner-slider-content .partner-details {
+      margin: 60px 0 0 0; }
+
+.block-white .left-arrow {
+  background: url(img/gray-left-arrow.png); }
+  .block-white .left-arrow:hover {
+    background: url(img/dark-left-arrow.png); }
+.block-white .right-arrow {
+  background: url(img/gray-right-arrow.png); }
+  .block-white .right-arrow:hover {
+    background: url(img/dark-right-arrow.png); }
+
+.block-black .left-arrow {
+  background: url(img/dark-left-arrow.png); }
+  .block-black .left-arrow:hover {
+    background: url(img/gray-left-arrow.png); }
+.block-black .right-arrow {
+  background: url(img/dark-right-arrow.png); }
+  .block-black .right-arrow:hover {
+    background: url(img/gray-right-arrow.png); }
+
+/*===================================================================================
+Map
+=====================================================================================*/
+#map {
+  height: 320px;
+  overflow: hidden; }
+  #map iframe {
+    width: 100%; }
+
+/*===================================================================================
+Footer
+=====================================================================================*/
+#footer {
+  height: 505px;
+  background: #181c1e;
+  font-size: 11px;
+  color: #e8e8e8; }
+  #footer .tagging {
+    color: #58afcd;
+    text-decoration: none; }
+  #footer #footer-content {
+    padding: 35px 0 35px 0; }
+    #footer #footer-content #footer-content-columns {
+      border-bottom: 1px solid #3e3e3e;
+      height: 275px;
+      margin: 0 20px 0 20px; }
+      #footer #footer-content #footer-content-columns > li {
+        height: 100%;
+        float: left;
+        width: 175px;
+        padding: 0 30px 0 30px;
+        overflow: hidden; }
+        #footer #footer-content #footer-content-columns > li:first-child {
+          padding: 0 30px 0 0; }
+      #footer #footer-content #footer-content-columns #left-logo-div img {
+        display: block;
+        padding: 0 0 20px 0; }
+      #footer #footer-content #footer-content-columns #left-logo-div span {
+        font-size: 12px;
+        color: #4e4e4e; }
+      #footer #footer-content #footer-content-columns #footer-tweet-content .footer-item {
+        background: url(img/birds.png) 0px 2px no-repeat; }
+        #footer #footer-content #footer-content-columns #footer-tweet-content .footer-item .item-content {
+          padding: 0 0 0 25px; }
+      #footer #footer-content #footer-content-columns #footer-contact-us p {
+        padding: 0 0 10px 0;
+        line-height: 18px; }
+      #footer #footer-content #footer-content-columns .footer-item {
+        padding: 0 0 10px 0; }
+        #footer #footer-content #footer-content-columns .footer-item p {
+          width: 150px; }
+        #footer #footer-content #footer-content-columns .footer-item #nation {
+          text-shadow: #fff 0 0 0.5em; }
+      #footer #footer-content #footer-content-columns .the-content {
+        padding: 0 0 5px 0; }
+      #footer #footer-content #footer-content-columns .datetime {
+        color: #4e4e4e; }
+      #footer #footer-content #footer-content-columns .footer-title {
+        color: #e8e8e8;
+        font: 600 12px 'Open Sans', sans-serif;
+        padding: 0px 0 15px 0;
+        text-transform: uppercase; }
+  #footer #present-by {
+    border-top: 1px solid #3e3e3e;
+    margin: 0 30px 0 30px;
+    margin: 1px 20px 0 20px; }
+    #footer #present-by h5 {
+      padding: 10px 0 10px 0;
+      margin: 0px;
+      font-size: 16px; }
+    #footer #present-by li.present-list-item {
+      float: left;
+      width: 160px;
+      height: 116px;
+      background-color: #242424;
+      text-align: center;
+      display: table; }
+      #footer #present-by li.present-list-item > p {
+        display: table-cell;
+        vertical-align: middle; }
+
+@media (min-width: 980px) {
+  .responsive-dropdown {
+    display: none; }
+
+  #slogan {
+    display: block; } }
+@media (min-width: 980px) and (max-width: 1101px) {
+  #partner-slider .left-arrow {
+    left: 0; }
+  #partner-slider .right-arrow {
+    right: 0; } }
+@media (min-width: 401px) and (max-width: 979px) {
+  #header {
+    height: 125px; }
+
+  #main-content div.lifelab-block:nth-child(2) .jag-top {
+    display: none; }
+
+  #main-content div.lifelab-block:nth-last-child(2) .jag-bot {
+    display: none; }
+
+  #main-content .lifelab-block-banner {
+    height: 220px; }
+  #main-content .lifelab-block-content p {
+    font: 200 16px 'Open Sans', sans-serif;
+    color: #555; }
+
+  #footer {
+    height: auto;
+    color: #E8E8E8;
+    font: 200 11px 'Open Sans', sans-serif; }
+    #footer #footer-content {
+      padding: 35px 0 20px 0; }
+      #footer #footer-content #footer-content-columns {
+        height: auto; }
+        #footer #footer-content #footer-content-columns > li {
+          display: inline-block;
+          width: 100%;
+          height: auto;
+          padding: 5px 0 5px 0; }
+        #footer #footer-content #footer-content-columns #left-logo-div {
+          padding: 0px 0 15px 0; }
+          #footer #footer-content #footer-content-columns #left-logo-div #license {
+            color: #E8E8E8; }
+        #footer #footer-content #footer-content-columns .footer-title {
+          font: 200 18px 'Open Sans', sans-serif; }
+        #footer #footer-content #footer-content-columns #footer-tweet-content .footer-item {
+          background: url(img/birds.png) 0px 2px no-repeat;
+          background-size: 20px 15px; }
+          #footer #footer-content #footer-content-columns #footer-tweet-content .footer-item p {
+            width: 100%; }
+      #footer #footer-content #present-by {
+        padding: 50px 0 0 0;
+        margin: 2px 30px 0 30px;
+        color: #3d3d3d; }
+        #footer #footer-content #present-by h5 {
+          font: 300 19px 'Open Sans', sans-serif !important; }
+        #footer #footer-content #present-by li.present-list-item {
+          width: auto;
+          height: auto;
+          background-color: transparent;
+          padding: 10px 0 0 0; }
+          #footer #footer-content #present-by li.present-list-item > p {
+            display: table-cell;
+            vertical-align: middle; }
+
+  #header #header-content {
+    text-align: center;
+    width: 100%; }
+    #header #header-content .life-labs-logo {
+      margin: 15px 0 0 0;
+      float: none; }
+    #header #header-content .responsive-dropdown {
+      width: 210px;
+      display: block;
+      margin: 10px auto; }
+  #header #navigation {
+    display: none; }
+
+  img.responsive {
+    width: 100%; }
+
+  #gadget {
+    display: none; }
+
+  #main-content #slogan {
+    display: none; }
+  #main-content .lifelab-block-banner .inside-banner {
+    background: none; }
+    #main-content .lifelab-block-banner .inside-banner .lifelab-block-banner-quote {
+      width: 80%; }
+      #main-content .lifelab-block-banner .inside-banner .lifelab-block-banner-quote p {
+        font-size: 28px;
+        font: 500 30px 'Open Sans', sans-serif !important; }
+  #main-content .lifelab-block-content-sub {
+    padding: 30px 25px 10px 25px; }
+    #main-content .lifelab-block-content-sub .lifelab-block-title-content {
+      font: 500 32px 'Open Sans', sans-serif !important; }
+    #main-content .lifelab-block-content-sub .lifelab-block-title-line {
+      bottom: 20px; }
+  #main-content .div980px {
+    width: 100%; }
+  #main-content #map {
+    display: none; }
+  #main-content #partner-slider {
+    height: 510px; }
+    #main-content #partner-slider .left-arrow {
+      left: 0px; }
+    #main-content #partner-slider .right-arrow {
+      right: 0px; }
+    #main-content #partner-slider #partner-slider-content .slider-item .partner-top {
+      height: auto; }
+      #main-content #partner-slider #partner-slider-content .slider-item .partner-top img {
+        width: 200px; }
+    #main-content #partner-slider #partner-slider-content .slider-item .partner-quote,
+    #main-content #partner-slider #partner-slider-content .slider-item .partner-details {
+      margin: 0;
+      padding: 0; }
+
+  .div980px {
+    width: 100%; }
+
+  img.responsive {
+    width: 100%; }
+
+  .block-black #partner-slider #partner-slider-content .slider-item {
+    width: auto; }
+    .block-black #partner-slider #partner-slider-content .slider-item:hover {
+      background-color: transparent; }
+
+  .block-white #partner-slider #partner-slider-content .slider-item {
+    width: auto; }
+    .block-white #partner-slider #partner-slider-content .slider-item:hover {
+      background-color: transparent; }
+
+  .button {
+    display: block;
+    text-decoration: none;
+    font: 300 15px 'Open Sans', sans-serif;
+    margin: 30px 0 40px 0;
+    color: #fff; } }
+@media (max-width: 400px) {
+  #header {
+    height: 125px; }
+
+  #main-content div.lifelab-block:nth-child(2) .jag-top {
+    display: none; }
+
+  #main-content div.lifelab-block:nth-last-child(2) .jag-bot {
+    display: none; }
+
+  #main-content .lifelab-block-banner {
+    height: 220px; }
+  #main-content .lifelab-block-content p {
+    font: 200 16px 'Open Sans', sans-serif;
+    color: #555; }
+
+  #footer {
+    height: auto;
+    color: #E8E8E8;
+    font: 200 11px 'Open Sans', sans-serif; }
+    #footer #footer-content {
+      padding: 35px 0 20px 0; }
+      #footer #footer-content #footer-content-columns {
+        height: auto; }
+        #footer #footer-content #footer-content-columns > li {
+          display: inline-block;
+          width: 100%;
+          height: auto;
+          padding: 5px 0 5px 0; }
+        #footer #footer-content #footer-content-columns #left-logo-div {
+          padding: 0px 0 15px 0; }
+          #footer #footer-content #footer-content-columns #left-logo-div #license {
+            color: #E8E8E8; }
+        #footer #footer-content #footer-content-columns .footer-title {
+          font: 200 18px 'Open Sans', sans-serif; }
+        #footer #footer-content #footer-content-columns #footer-tweet-content .footer-item {
+          background: url(img/birds.png) 0px 2px no-repeat;
+          background-size: 20px 15px; }
+          #footer #footer-content #footer-content-columns #footer-tweet-content .footer-item p {
+            width: 100%; }
+      #footer #footer-content #present-by {
+        padding: 50px 0 0 0;
+        margin: 2px 30px 0 30px;
+        color: #3d3d3d; }
+        #footer #footer-content #present-by h5 {
+          font: 300 19px 'Open Sans', sans-serif !important; }
+        #footer #footer-content #present-by li.present-list-item {
+          width: auto;
+          height: auto;
+          background-color: transparent;
+          padding: 10px 0 0 0; }
+          #footer #footer-content #present-by li.present-list-item > p {
+            display: table-cell;
+            vertical-align: middle; }
+
+  #header #header-content {
+    text-align: center;
+    width: 100%; }
+    #header #header-content .life-labs-logo {
+      margin: 15px 0 0 0;
+      float: none; }
+    #header #header-content .responsive-dropdown {
+      width: 210px;
+      display: block;
+      margin: 10px auto; }
+  #header #navigation {
+    display: none; }
+
+  img.responsive {
+    width: 100%; }
+
+  #gadget {
+    display: none; }
+
+  #main-content #slogan {
+    display: none; }
+  #main-content .lifelab-block-banner .inside-banner {
+    background: none; }
+    #main-content .lifelab-block-banner .inside-banner .lifelab-block-banner-quote {
+      width: 80%; }
+      #main-content .lifelab-block-banner .inside-banner .lifelab-block-banner-quote p {
+        font-size: 28px;
+        font: 500 30px 'Open Sans', sans-serif !important; }
+  #main-content .lifelab-block-content-sub {
+    padding: 30px 25px 10px 25px; }
+    #main-content .lifelab-block-content-sub .lifelab-block-title-content {
+      font: 500 32px 'Open Sans', sans-serif !important; }
+    #main-content .lifelab-block-content-sub .lifelab-block-title-line {
+      bottom: 20px; }
+  #main-content .div980px {
+    width: 100%; }
+  #main-content #map {
+    display: none; }
+  #main-content #partner-slider {
+    height: 510px; }
+    #main-content #partner-slider .left-arrow {
+      left: 0px; }
+    #main-content #partner-slider .right-arrow {
+      right: 0px; }
+    #main-content #partner-slider #partner-slider-content .slider-item .partner-top {
+      height: auto; }
+      #main-content #partner-slider #partner-slider-content .slider-item .partner-top img {
+        width: 200px; }
+    #main-content #partner-slider #partner-slider-content .slider-item .partner-quote, #main-content #partner-slider #partner-slider-content .slider-item .partner-details {
+      margin: 0;
+      padding: 0; }
+
+  body {
+    min-width: 400px; }
+
+  #main-content div.lifelab-block:nth-child(2) {
+    background-color: red; }
+    #main-content div.lifelab-block:nth-child(2) .jag-top {
+      display: none; }
+
+  .div980px {
+    width: 400px; }
+
+  .block-black #partner-slider #partner-slider-content .slider-item {
+    width: auto; }
+    .block-black #partner-slider #partner-slider-content .slider-item:hover {
+      background-color: transparent; }
+
+  .block-white #partner-slider #partner-slider-content .slider-item {
+    width: auto; }
+    .block-white #partner-slider #partner-slider-content .slider-item:hover {
+      background-color: transparent; } }

@@ -1,0 +1,853 @@
+$purple: #805e9c;
+$red: #c72d29;
+$green: #88a73c;
+$blue: #55b6ce;
+$gray: #616161;
+
+$dark-bg: #1A1E21;
+$footer-bg: #181c1e;
+$white-bg: #e8e8e8;
+
+/*===================================================================================
+Standard
+=====================================================================================*/
+
+.fr
+{
+	float: right;
+}
+.fl
+{
+	float: left;
+}
+#header-content .color-purple:hover
+{
+	color: $purple;
+	border-bottom: 5px solid $purple;
+}
+.purple{
+	color: $purple;
+}
+#header-content .color-red:hover
+{
+	color: $red;
+	border-bottom: 5px solid $red;
+}
+.red{
+	color: $red;
+}
+#header-content .color-green:hover
+{
+	color: $green;
+	border-bottom: 5px solid $green;
+}
+.green{
+	 color : $green;
+}
+#header-content .color-blue:hover
+{
+	color: $blue;
+	border-bottom: 5px solid $blue;
+}
+.blue{
+	color: $blue;
+}
+#header-content .color-gray:hover
+{
+	color: $gray;
+	border-bottom: 5px solid $gray;
+}
+.div980px
+{
+	margin: 0 auto;
+	width: 980px;
+}
+p{
+	margin: 0;
+	padding: 0;
+}
+.full-width
+{
+	width: 100%;
+}
+
+/*===================================================================================
+Body
+=====================================================================================*/
+body{
+	color: #515151;
+	height: 1500px;
+	background-color: $white-bg;
+}
+
+a{
+	color: #515151;
+}
+
+#wrapper{
+	/*margin-top: 115px;*/
+}
+
+/*===================================================================================
+Header
+=====================================================================================*/
+
+#header {
+	background: $dark-bg;
+	position: fixed;
+	width: 100%;
+	height: 115px;
+	z-index: 9999;
+}
+	#header-content a{
+		color: #ccc;
+	}
+	#header-content{
+		// width: 980px;
+		margin: 0 auto;
+		padding: 0;
+		height: inherit;
+
+	}
+		.life-labs-logo{
+			margin: 25px 0 0 20px;
+			float: left;
+		}
+		#navigation #menu-top{
+			margin: 60px 0 0 10px;
+			padding: 0;
+			list-style: none;			
+		}
+			#navigation #menu-top li{
+				float: left;
+				margin: 0 20px 0 20px;
+				height: 50px;
+			}
+
+				#navigation #menu-top li a{
+					font: 400 16px 'Open Sans', sans-serif;
+					text-decoration: none;
+					height: inherit;
+					display: block;
+				}
+/*===================================================================================
+Gadget
+=====================================================================================*/
+#gadget{
+	position: fixed;
+	top: 240px;
+	right: 0;
+	z-index: 9999;
+}
+	#gadget-content .social-item{
+		padding: 5px 0 5px 0;
+		width: 50px;
+	}
+		#gadget-content .social-item a{
+			width: 40px;
+			height: 40px;
+			display: block;
+		}
+		#facebook-icon{
+			background: url(img/FB-icon.png) no-repeat;
+		}
+		#facebook-icon:hover{
+			background: url(img/FB-icon-hover.png) no-repeat;
+		}
+		#googleplus-icon{
+			background: url(img/gplus-icon.png) no-repeat;
+		}
+		#googleplus-icon:hover{
+			background: url(img/gplus-icon-hover.png) no-repeat;
+		}
+		#linkedin-icon{
+			background: url(img/LinkedIn-Icon.png) no-repeat; 
+		}
+		#linkedin-icon:hover{
+			background: url(img/LinkedIn-Icon-hover.png) no-repeat;
+		}
+		#twitter-icon{
+			background: url(img/Twiter-Icon.png) no-repeat;
+		}
+		#twitter-icon:hover{
+			background: url(img/Twiter-Icon-hover.png) no-repeat;
+		}
+
+/*===================================================================================
+Main content
+=====================================================================================*/
+#main-content{
+	padding: 115px 0 0 0;
+}
+	#slogan{
+		background-color: #333;
+		height: 70px;
+	}
+		#slogan-content{			
+			height: auto;			
+			padding: 20px 0 0 90px;
+			font: 500 17px 'Open Sans', sans-serif;
+		}
+			.logo-singtel{
+				/*padding: 20px 0 20px 0;*/
+				display: inline;				
+			}
+
+			#slogan-content p{
+				color: #666666;
+				padding: 15px 50px 20px 10px;				
+				line-height: 16px;
+				display: inline-block;				
+				margin: 0;			
+				vertical-align: top;	
+			}
+	.lifelab-block{
+		position: relative;
+	}
+		.lifelab-block-banner{
+			background: url(img/block-banner-bg.jpg),
+						url(img/guy1.png) 100px -100px no-repeat; ;			
+			height: 410px;	
+			z-index: 1;	
+			position: relative;
+			overflow: hidden;
+			img{
+				position: absolute;
+				bottom: 0;
+			}	
+		}
+		#guy1{
+			width: 100%;
+			height: 100%;
+			background: url(img/guy1.png) left -100px no-repeat; 
+		}
+		#guy2{
+			width: 100%;
+			height: 100%;
+			background: url(img/guy2.png) right -100px no-repeat; 
+		}
+		#guy3{
+			width: 100%;
+			height: 100%;
+			background: url(img/guy3.png) left -100px no-repeat; 
+		}
+		#guy4{
+			width: 100%;
+			height: 100%;
+			background: url(img/guy4.png) right -100px no-repeat; 
+		}
+
+		.lifelab-block-banner-quote{			
+			z-index: 5;
+			display: table;
+			width: 600px;
+			height: 100%;
+			margin: 0 auto;
+		}
+		.lifelab-block-banner-quote p{
+			display: table-cell;
+			vertical-align: middle;
+			color: #f1f1f1;
+			font: 600 45px 'Open Sans', sans-serif !important;					
+			text-align: center;		
+			text-shadow: #333 2px 3px 0.1em;	
+		}
+
+		.lifelab-block-content-wrapper{			
+			margin: -5px 0 -5px 0;
+			z-index: 5;
+			text-align: center;
+			position: relative;
+			.lifelab-block-content-sub{
+				// .lifelab-block-content-paragrahps-wrapper{
+				// 	border-bottom: 1px solid #ccc;
+				// 	padding: 0 0 20px 0;
+				// }
+			}			
+		}
+			.lifelab-block-title{
+				font: 600 45px 'Open Sans', sans-serif;
+				position: relative;
+				width: 100%;
+				padding: 30px 0 30px 0;
+				text-align: center;
+			}
+			.lifelab-block-title-content{												
+				display: inline-block;	
+				padding: 0px 20px 0 20px;			
+				margin: 0 auto;				
+				position: relative;
+				z-index: 2;				
+				background-color: #e8e8e8;											
+			}
+			.lifelab-block-title-line{				
+				width: 100%;
+				height: 1px;
+				position: relative;
+				bottom: 30px;
+				z-index: 1;
+			}			
+			.lifelab-block-content {							
+				p{
+					padding: 20px 0 0 0;
+					color: #333;
+					font: 100 18px 'Open Sans', sans-serif;
+					line-height: 24px;
+					text-align: center;
+					&>img{				
+						padding: 0 0 30px 0;
+					}
+				}
+			}
+			.block-jag{
+				height: 6px;
+				width: 100%;
+				display: block;
+				position: relative;
+				z-index: 5;
+			}
+
+
+		@mixin lifelab-block(
+			$urlJagTop, $urlJagBot, $bgColor, 
+			$borderColor, $borderBottomColor, $textColor,
+			$partnerHoverColor){
+			.jag-top{
+				background: url($urlJagTop) top repeat-x;
+			}
+			.jag-bot{
+				background:	url($urlJagBot) bottom repeat-x;							
+			}				
+			.lifelab-block-content-sub{
+				background-color: $bgColor;
+				.lifelab-block-content-paragrahps-wrapper{
+					border-bottom: 1px solid $borderBottomColor;
+				}				
+			}			
+			.lifelab-block-title-content{
+				background-color: $bgColor;
+			}	
+			#partner-slider{				
+				.slider-item{
+					border-left: 1px solid $borderColor;							
+					&:first-child{
+						border-left: none;
+					}
+					&:hover{
+						background-color: $partnerHoverColor;
+					}
+				}
+			}
+			.lifelab-block-title-line{
+				border-top: 1px solid $borderBottomColor;
+			}
+			p{
+				color: $textColor;
+			}
+		}
+		.block-black{
+			@include lifelab-block(	
+				"img/grey-jag-top.png", 
+				"img/grey-jag-bot.png",
+				$dark-bg,
+				#333,
+				#666,
+				#999,
+				#323639
+			);	
+		}		
+
+		.block-white{
+			@include lifelab-block(	
+				"img/mgrey-jag-top.png", 
+				"img/mgrey-jag-bot.png",
+				$white-bg,
+				#ccc,
+				#ccc,
+				#333,
+				#fff
+			);	
+		}
+
+		@mixin title($titleColor){
+			.lifelab-block-title-content{
+				color: $titleColor;
+			}
+		}
+
+		.purple {
+			@include title($purple);
+		}
+
+		.red {
+			@include title($red);
+		}
+
+		.green {
+			@include title($green);
+		}
+
+		.gray {
+			@include title($gray);
+		}
+
+		.blue {
+			@include title($blue);
+		}
+
+	.button{
+		margin: 30px 0 40px 0;
+		display: inline-block;
+		padding: 15px 20px 15px 20px;
+		background: #333;
+		color: #fff;
+		text-transform: uppercase;		
+		text-decoration: none;	
+		font: 300 20px 'Open Sans', sans-serif;				
+	}
+/*===================================================================================
+Slider
+=====================================================================================*/
+#partner-slider{
+	width: 100%;
+	height: 720px;
+	position: relative;
+	.slider-nav{
+		position:absolute;
+		width: 65px;
+		height: 65px;
+		top: 120px;
+		cursor: hand;
+	}
+	.left-arrow{
+		left: -65px;
+	}
+	.right-arrow{
+		right: -65px;
+	}
+	#partner-slider-content{
+		height: 100%;
+		overflow: hidden;
+		.slider-item{
+			text-align: center;
+			width: 389px;
+			height: 600px;
+			padding: 30px 50px 90px 50px;
+			float: left;		
+			font: 300 20px 'Open Sans', sans-serif;			
+			p.partner-quote{
+				font-style: italic;
+				color: #999;
+			}
+		}
+		.partner-top{
+			height: 280px;
+		}
+		.partner-quote,
+		.partner-details{
+			margin: 60px 0 0 0;
+		}	
+	}
+	
+}
+.block-white{
+	.left-arrow{
+		background: url(img/gray-left-arrow.png);		
+		&:hover{
+			background: url(img/dark-left-arrow.png);
+		}
+	}
+	.right-arrow{
+		background: url(img/gray-right-arrow.png);		
+		&:hover{
+			background: url(img/dark-right-arrow.png);
+		}	
+	}
+}
+.block-black{
+	.left-arrow{
+		background: url(img/dark-left-arrow.png);
+		&:hover{
+			background: url(img/gray-left-arrow.png);
+		}
+	}
+	.right-arrow{
+		background: url(img/dark-right-arrow.png);
+		&:hover{
+			background: url(img/gray-right-arrow.png);
+		}
+	}
+}
+
+/*===================================================================================
+Map
+=====================================================================================*/
+#map{
+	height: 320px;
+	overflow: hidden;
+	iframe{
+		width: 100%;
+	}
+}
+
+/*===================================================================================
+Footer
+=====================================================================================*/
+#footer{
+
+	$footer-content-padding : 35px;
+	$content-text-color: #E8E8E8;
+	$content-datetime-color: #4e4e4e;
+	$footer-tagging-color: #58afcd;
+
+	height: 575px - $footer-content-padding * 2;
+	background: $footer-bg;
+	font-size: 11px;
+	color: $content-text-color;
+
+	.tagging{
+		color: $footer-tagging-color;
+		text-decoration: none;
+	}
+	#footer-content{
+		padding: $footer-content-padding 0 $footer-content-padding 0;
+		#footer-content-columns{
+			border-bottom: 1px solid #3e3e3e;
+			height: 275px;
+			margin: 0 20px 0 20px;
+			&>li{
+				height: 100%;
+				float: left;
+				width: 175px;
+				padding: 0 30px 0 30px;
+				overflow: hidden;
+				&:first-child{
+					padding: 0 30px 0 0;
+				}
+			}
+			#left-logo-div{
+				img{
+					display: block;
+					padding: 0 0 20px 0;
+				}
+				span{
+					font-size:12px;
+					color: $content-datetime-color;
+				}
+			}
+			#footer-tweet-content{
+				.footer-item{
+					background: url(img/birds.png) 0px 2px no-repeat;	
+					.item-content{
+						padding: 0 0 0 25px;
+					}
+				}
+			}
+
+			#footer-contact-us{
+				p{
+					padding: 0 0 10px 0;
+					line-height: 18px;
+				}
+			}
+
+			.footer-item{
+				padding: 0 0 10px 0;
+				p{
+					width: 150px;
+				}
+				#nation{
+					text-shadow: #fff 0 0 0.5em;
+				}
+			}
+
+			.the-content{
+				padding: 0 0 5px 0;
+			}
+			.datetime{
+				color: $content-datetime-color;
+			}
+
+			.footer-title{
+				color: $content-text-color;
+				font: 600 12px 'Open Sans', sans-serif;
+				padding: 0px 0 15px 0;
+				text-transform: uppercase;
+			}
+		}
+	}	
+
+	#present-by{		
+		border-top: 1px solid #3e3e3e;
+		margin: 0 30px 0 30px;
+		margin: 1px 20px 0 20px;
+		h5{
+			padding: 10px 0 10px 0;
+			margin: 0px;
+			font-size: 16px;
+		}
+		li.present-list-item{
+			float: left;
+			width: 160px;
+			height: 116px;
+			background-color: #242424;
+			text-align: center;
+			display: table;			
+			&>p{
+				display: table-cell;
+				vertical-align: middle;
+			}
+		}		
+	}
+}
+
+@mixin removeHoverBackground(){
+	#partner-slider{
+		#partner-slider-content{
+			.slider-item{
+				width: auto;
+				&:hover{
+					background-color:transparent;
+				}
+			}
+		} 
+	} 
+}
+
+@media (min-width: 980px){
+	.responsive-dropdown{
+		display: none;
+	}
+	#slogan{
+		display: block;
+	}
+} 
+
+@media (min-width: 980px) and (max-width: 1101px){
+	#partner-slider{
+		.left-arrow{
+			left: 0;
+		}
+		.right-arrow{
+			right: 0;
+		}
+	}
+} 
+
+@mixin for480pxTo980px{
+	#header{
+		height: 125px;
+	}
+	#main-content div.lifelab-block:nth-child(2){
+		.jag-top{
+			display: none;
+		}
+	}	
+	#main-content div.lifelab-block:nth-last-child(2){
+		.jag-bot{
+			display: none;
+		}		
+	}
+	#main-content
+	{
+		.lifelab-block-banner{
+			height: 220px;
+		}
+		.lifelab-block-content{
+			p{
+				font: 200 16px 'Open Sans', sans-serif;
+				color: #555;
+			}
+		}
+		.lifelab-block-title-content{	
+		}
+	} 
+	#footer{
+		height: auto;
+		color: #E8E8E8;		
+		font: 200 11px 'Open Sans', sans-serif;
+		#footer-content{	
+			padding: 35px 0 20px 0;		
+			#footer-content-columns{
+				height: auto;
+				&>li{
+					display: inline-block;
+					width: 100%;
+					height: auto;					
+					padding: 5px 0 5px 0;	
+				}
+				#left-logo-div{
+					padding: 0px 0 15px 0;
+					#license{
+						color: #E8E8E8;
+					}
+				}
+				.footer-title{						
+					font: 200 18px 'Open Sans', sans-serif;											
+				}							
+				#footer-tweet-content{
+					.footer-item{
+						background: url(img/birds.png) 0px 2px no-repeat;					
+						background-size: 20px 15px;							
+						p{
+							width: 100%;
+						}													
+					}
+				}
+			}
+			#present-by{		
+				padding: 50px 0 0 0;
+				margin: 2px 30px 0 30px;
+				color: #3d3d3d;
+				h5{
+					font: 300 19px 'Open Sans', sans-serif !important;					
+				}
+				li.present-list-item{					
+					width: auto;
+					height: auto;
+					background-color: transparent;											
+					padding: 10px 0 0 0;
+					&>p{
+						display: table-cell;
+						vertical-align: middle;
+					}
+				}			
+			}			
+		}
+	}
+	#header{
+		// position: absolute;
+		#header-content{			
+			text-align: center;
+			width: 100%;
+			.life-labs-logo{
+				margin: 15px 0 0 0;
+				float: none;
+			}
+			.responsive-dropdown{
+				width: 210px;
+				display: block;
+				margin: 10px auto;
+			}
+		}
+		#navigation{
+			display: none;
+		}
+	}
+	img.responsive{
+		width: 100%;
+	}
+	#gadget{
+		display: none;
+	}
+	#main-content{
+		#slogan{
+			display: none;
+		}
+		.lifelab-block-banner{			
+			.inside-banner{
+				background: none;
+				.lifelab-block-banner-quote {
+					width: 80%;
+					p{
+						font-size: 28px;
+						font: 500 30px 'Open Sans', sans-serif !important;									
+					}
+				}					
+			}			
+		}
+
+		.lifelab-block-content-sub{			
+			padding: 30px 25px 10px 25px;
+			.lifelab-block-title-content{
+				font: 500 32px 'Open Sans', sans-serif !important;									
+			}
+			.lifelab-block-title-line{
+				bottom: 20px;
+			}			
+		}
+		.div980px{
+			width: 100%;
+		}
+		#map{
+			display: none;
+		}
+			#partner-slider{	
+		height: 510px;	
+		.left-arrow{
+			left: 0px;
+		}
+		.right-arrow{
+			right: 0px;
+		}
+		#partner-slider-content {
+			.slider-item{				
+				.partner-top{
+					height: auto;
+					img{
+						width: 200px;
+					}
+				}
+				.partner-quote,
+				.partner-details{
+					margin: 0;
+					padding: 0;
+				}
+			}						
+		}		
+	}
+	}
+}
+
+@media (min-width: 401px) and (max-width: 979px) {
+	@include for480pxTo980px;
+
+	.div980px{
+		width: 100%;
+	}
+	img.responsive{
+		width: 100%;
+	}
+
+	.block-black{
+		@include removeHoverBackground;
+	}
+
+	.block-white{
+		@include removeHoverBackground;
+	}
+	
+	.button{
+		display: block;
+		text-decoration: none;
+		font: 300 15px 'Open Sans', sans-serif;
+		margin: 30px 0 40px 0;
+		color: #fff;
+	}
+}
+
+@media (max-width: 400px)
+{
+	@include for480pxTo980px;
+
+	body{
+		min-width: 400px;
+	}
+	#main-content div.lifelab-block:nth-child(2){
+		background-color: red;
+		.jag-top{
+			display: none;
+		}
+	}
+	.div980px{
+		width: 400px;
+	}
+	
+	.block-black{
+		@include removeHoverBackground;
+	}
+
+	.block-white{
+		@include removeHoverBackground;
+	}
+}
